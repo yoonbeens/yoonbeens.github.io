@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'HSJiptokki-Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/HSJiptokki-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+.wrap {
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'HSJiptokki-Black';
+    /* background: green; */
+    background-image: url(../main/src/grass.png);
+    color: whitesmoke;
+    letter-spacing: 2px;
+
+
+}
+
+.wrap .intro {
+    width: 800px;
+    height: 600px;
+    background: darkgreen;
+    border: 5px solid whitesmoke;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mainheader {
+    margin-bottom: 50px;
+    font-family: 'HSJiptokki-Black';
+    font-size: 50px;
+
+}
+
+
+
+/* .wrap .intro{
+    position: relative;
+} */
+
+
+.wrap .support {
+    position: absolute;
+    background: rgb(0, 145, 0);
+    width: 150px;
+
+    border: 5px solid whitesmoke;
+
+    height: 70px;
+    left: 70%;
+    top: 1%;
+    font-size: 30px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 20px;
+    /* box-sizing: border-box; */
+    font-family: 'HSJiptokki-Black';
+}
+
+.wrap .support:hover {
+    opacity: 0.8;
+
+}
+
+.wrap .quit {
+    position: relative;
+}
+
+.mainheader2 {
+    margin-bottom: 50px;
+}
+
+.wrap .soso {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap .susu {
+    display: flex;
+    text-align: end;
+    font-family: 'HSJiptokki-Black';
+}
+
+.wrap .cha1 {
+    background: url();
+}
+
+
+
+.wrap .hammer {
+    background: url(../main/src/hammer.png);
+    /* background: orange; */
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: block;
+    /* margin: 0 auto; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.wrap .domaster {
+    display: flex;
+    justify-content: center;
+    line-height: 70px;
+    margin-top: 30px;
+    font-family: 'HSJiptokki-Black';
+}
+
+.domaster .do1 {
+    background: url(../main/src/normal_digda.png);
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.domaster .do2 {
+    background: url(../main/src/normal_alora_digda.png);
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.domaster .do3 {
+    background: url(../main/src/normal_doctrio.png);
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.wiwimo {
+    display: flex;
+    justify-content: center;
+}
+
+.wiwi {
+    margin-bottom: 40px;
+}
+
+
+/* .wiwi3 {
+    background: url(../src/wow.PNG);
+    width: 120px;
+    height: 50px;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-left: 20px;
+} */
