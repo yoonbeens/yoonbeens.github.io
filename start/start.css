@@ -1,0 +1,308 @@
+@font-face {
+    font-family: 'HSJiptokki-Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/HSJiptokki-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PilseungGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/PilseungGothic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.wrap {
+    width: 100%;
+    height: 100vh;
+    background: rgb(77, 159, 192);
+}
+
+.wrap .intro {
+    padding: 100px 0;
+    background: rgb(77, 159, 192);
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.wrap .support {
+    position: absolute;
+    /* background: rgb(1, 105, 146); */
+    background: rgb(77, 159, 192);;
+    width: 120px;
+    font-family: 'HSJiptokki-Black';
+    height: 70px;
+    top: 3%;
+    left : 92%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    border:solid 5px #fff;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.wrap .support:hover {
+    color: rgb(1, 105, 146);
+    border-color: rgb(1, 105, 146);
+}
+
+.wrap .intro .left {
+    width: 300px;
+    background-image: url(./startsrc/피카츄2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.wrap .intro .right {
+    width: 300px;
+    background-image: url(./startsrc/펭도리1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.wrap .intro .leftBall {
+    width: 300px;
+    background-image: url(./startsrc/monsterBall.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+}
+
+
+.wrap .intro .rightBall {
+    width: 300px;
+    background-image: url(./startsrc/오박사.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.wrap .intro .rightBall:hover {
+    opacity: 0.8
+}
+
+.wrap .intro .text {
+    margin: 0 auto;
+}
+
+.wrap .intro h1:hover {
+    color: burlywood;
+}
+
+.wrap .intro h2:hover {
+    color: burlywood;
+}
+
+.wrap .intro h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding: 50px;
+    font-family: 'PilseungGothic';
+    letter-spacing: 5px;
+}
+
+.wrap .intro h2 {
+
+    text-align: center;
+    color: rgb(1, 105, 146);
+    font-size: 30px;
+    font-family: 'PilseungGothic';
+}
+
+.wrap .select {
+    width: 100%;
+    height: 350px;
+    /* background-image: url(./img/back1023.png); */
+    background: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 100px; */
+}
+
+.wrap .select .border {
+    border: 5px solid burlywood
+}
+
+.wrap .select .char {
+    width: 300px;
+    height: 300px;
+    background: rgb(122, 179, 202);
+    cursor: pointer;
+    margin: 0 10px;
+    /* box-shadow: 6px 6px 3px 6px rgba(0,0,0,0.16), -3px 0 3px 6px rgba(0,0,0,0.16); */
+    border-radius: 20px;
+
+    /* background-image: url(../main/Screenshot_2016-11-22-18-19-20-1.png); */
+}
+
+.wrap .select .char1 {
+    background-size: contain;
+    background-image: url(./startsrc/지우_비포.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 25px;
+}
+
+.wrap .select .char2 {
+    background-size: contain;
+    background-image: url(./startsrc/로사1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 25px;
+    /* border-left: 3px solid white; */
+}
+
+.wrap .select .char3 {
+    background-size: contain;
+    background-image: url(./startsrc/웅이1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 25px;
+    /* border-left: 3px solid white; */
+}
+
+.wrap .select .char4 {
+    background-size: contain;
+    background-image: url(./startsrc/빛나1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 25px;
+    /* border-left: 3px solid white; */
+
+}
+
+.wrap .select .char1:hover {
+    background-image: url(./startsrc/지우_애프터.png);
+    background-color: rgb(77, 159, 192);
+}
+
+.wrap .select .char2:hover {
+    background-image: url(./startsrc/로이2.png);
+    background-color: rgb(77, 159, 192);
+}
+
+.wrap .select .char3:hover {
+
+    background-image: url(./startsrc/웅이_애프터.png);
+    background-color: rgb(77, 159, 192);
+}
+
+.wrap .select .char4:hover {
+    background-image: url(./startsrc/빛나2.png);
+    background-color: rgb(77, 159, 192);
+}
+
+
+
+.wrap .select .char:hover {
+    /* color: #5865f2; */
+    transition: all 0.3s;
+    /* box-shadow: 5px 5px 5px 5px gray, -5px -5px 5px 5px gray; */
+    box-shadow: 6px 6px 3px 6px rgba(0, 0, 0, 0.16), -3px 0 3px 6px rgba(0, 0, 0, 0.16);
+    /* opacity: 0.6; */
+    /* border: 5px solid goldenrod */
+
+}
+
+.wrap .start {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    background: rgb(77, 159, 192);
+}
+
+.wrap .start .btn {
+    font-family: 'PilseungGothic';
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-size: 40px;
+    letter-spacing: 6px;
+    background: white;
+    border-radius: 50px;
+    color: rgb(77, 159, 192);
+    cursor: pointer;
+    /* box-shadow: 5px 5px 5px 2px gray; */
+    box-shadow: -10px 1px 20px -10px rgba(0, 0, 0, 0.8);
+
+}
+
+.wrap .start .btn:hover {
+    color: rgb(245, 228, 131);
+    transition: all 0.3s;
+    /* box-shadow: -10px 1px 20px -10px rgba(0, 0, 0, 0.8); */
+    box-shadow: 5px 5px 5px 2px gray;
+}
+
+
+
+
+#finish {
+    width: 15%;
+    height: 50%;
+    background: rgb(1, 105, 146);
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 250%;
+    font-family: 'HSJiptokki-Black';
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
+    z-index: -10;
+
+    background-size: 150px;
+    background-image: url(./startsrc/masterBall.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 25px;
+
+    /* background-image: url(./startsrc/지우_비포.png); */
+}
+
+
+#finish.show {
+    animation: showUp 1s linear forwards;
+}
+
+@keyframes showUp {
+    0% {
+        opacity: 0;
+        z-index: -10;
+        top: -50%;
+    }
+
+    50% {
+        opacity: 0.5;
+        top: 0;
+    }
+
+    100% {
+        opacity: 1;
+        z-index: 10;
+        top: 50%;
+    }
+}

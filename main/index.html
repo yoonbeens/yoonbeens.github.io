@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>두더지 게임</title>
+
+    <!-- reset.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="./src/favicon.ico">
+
+    <!-- custom js -->
+    <script src="./app.js" defer></script>
+
+    <!-- start js -->
+    <script src="./start.js"></script>
+
+    <!-- start css -->
+    <script src="./start.css"></script>
+
+    <!-- 드래그 방지 -->
+    <script type="text/javascript">
+        document.oncontextmenu = function () { return false; }
+    </script>
+</head>
+
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+
+    <div class="wrapper">
+        <div class="cute"></div>
+        <div class="border-radius">
+            <section class="main">
+                <article class="number-wrapper">
+                    <div id="hole" class="hole1">
+                        <div class="mask"></div>
+                    </div>
+                    <div id="hole" class="hole2">
+                        <div class="mask"></div>
+                    </div>
+                    <div id="hole" class="hole3">
+                        <div class="mask"></div>
+                    </div>
+                    <div id="hole" class="hole4">
+                        <div class="mask"></div>
+                    </div>
+                    <div id="hole" class="hole5">
+                        <div class="mask"></div>
+                    </div>
+                    <div id="hole" class="hole6">
+                        <div class="mask"></div>
+                    </div>
+                    <div id="hole" class="hole7">
+                        <div class="mask"></div>
+                    </div>
+                    <div id="hole" class="hole8">
+                        <div class="mask"></div>
+                    </div>
+                    <div id="hole" class="hole9">
+                        <div class="mask"></div>
+                    </div>
+                    <h1 class="main-title sub-title">Score : <span></span></h1>
+                    <div class="combo">
+                        <span class="comboNum">0</span>COMBO
+                    </div>
+                    <div class="timer">60</div>
+                </article>
+            </section>
+        </div>
+
+        <div id="finish"></div>
+
+    </div>
+
+
+</body>
+
+</html>
